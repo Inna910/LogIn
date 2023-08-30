@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+body{
+    background: url(Accets/start.jpg) no-repeat center center fixed;
+    background-size: cover; 
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background-color: rgba(226, 163, 121, 0.8);
+    text-align: center;
+    width: 280px;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 300px;
+    
+}
+
+input[type="text"], input[type="password"] {
+    font-family: inherit;
+    border-radius: 5px;
+    border: 2px solid #eee;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+
+*:focus {
+    outline:none !important;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 13px 25px;
+    margin-top: 10px;
+    background-image: linear-gradient(#b6d18a, #649932);
+  
+}
